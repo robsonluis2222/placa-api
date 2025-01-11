@@ -77,6 +77,6 @@ app.get('/consultarPlaca', async (req, res) => {
 });
 
 // Inicializa o servidor na porta 3000, ouvindo em 0.0.0.0 para permitir acesso da rede interna
-app.listen(port, '192.168.100.205', () => {
+app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
