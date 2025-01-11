@@ -58,7 +58,7 @@ async function consultarPlaca({ placa }) {
   // Se não houver dados, retornamos um erro
   if (Object.keys(data1).length === 0) {
     console.log('Nenhum dado encontrado para a placa:', placa); // Log quando não encontrar dados
-    return { error: 'Placa não encontrada.' };
+    return { error: 'Placa not found.' };
   }
 
   console.log('Dados encontrados:', data1); // Log os dados que foram encontrados
